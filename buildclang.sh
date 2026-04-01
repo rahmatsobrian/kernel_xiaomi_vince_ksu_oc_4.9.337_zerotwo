@@ -7,7 +7,7 @@ yellow='\033[0;33m'
 white='\033[0m'
 
 # ================= PATH =================
-DEFCONFIG=rahmatvince-perf_defconfig
+DEFCONFIG=vince-perf_defconfig
 ROOTDIR=$(pwd)
 OUTDIR="$ROOTDIR/out/arch/arm64/boot"
 ANYKERNEL_DIR="$ROOTDIR/AnyKernel"
@@ -19,7 +19,7 @@ export PATH="$ROOTDIR/weebx-clang/bin:$PATH"
 
 # ================= INFO =================
 KERNEL_NAME="ReLIFE"
-DEVICE="Vince"
+DEVICE="vince"
 
 # =============== DATE (WIB) ===============
 DATE_TITLE=$(TZ=Asia/Jakarta date +"%d%m%Y")
