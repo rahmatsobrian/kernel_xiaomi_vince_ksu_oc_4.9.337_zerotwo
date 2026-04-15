@@ -378,7 +378,7 @@
 
 		qcom,cpr-enable;
 		qcom,cpr-hw-closed-loop;
-
+		
 		qcom,cpr-panic-reg-addr-list =
 			<0xb1d2c18 0xb1d2900 0x0b1112b0 0xb018798>;
 		qcom,cpr-panic-reg-name-list =
@@ -408,10 +408,10 @@
 					<22 22 22 22 22 22 22 22>;
 					
 				qcom,cpr-corners =
-	                                <22 22 22 22 22 22 22 22>;
+				    <22 22 22 22 22 22 22 22>;
 
 				qcom,cpr-corner-fmax-map =
-					<1 2 4 22>;
+				    <1 2 4 22>;
 
 				qcom,cpr-voltage-ceiling =
 					<715000 715000 745000 790000 800000
@@ -472,12 +472,12 @@
 				qcom,cpr-misc-fuse-voltage-adjustment =
 					<    0     0     0     0      0
 					     0     0     0     0      0
-                                             0     0     0     0      0
+                         0     0     0     0      0
 					     0     0     0     0      0
 					     0     0>,
 					<    0     0     30000     0      0
 					     0     0     0     0      0
-                                             0     0     0     0      0
+                         0     0     0     0      0
 					     0     0     0     0      0
 					     0     0>;
 
@@ -485,13 +485,13 @@
 					<1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2>;
 
 				qcom,corner-frequencies =
-					<  652800000 702500000 847000000
+				    <652800000 702500000 847000000
 					915000000 1036800000 1147000000
 					1248000000 1325000000 1401600000
 					1527000000 1689600000 1734000000
 					1804800000 1958400000 2016000000
 					2150000000 2208000000 2384000000
-				        2495000000 2545000000 2680000000
+				    2495000000 2545000000 2680000000
 					2843000000>;
 
 				qcom,cpr-open-loop-voltage-fuse-adjustment =
@@ -707,7 +707,7 @@
 
 		qcom,num-corners = <12>;
 		qcom,num-ldo-corners = <3>;
-		qcom,ldo-enable-corner-map = <1 1 1 0 0 0 0 0 0 0 0 0>;
+		qcom,ldo-enable-corner-map = <1 1 1 0 0 0 0>;
 		qcom,init-corner = <4>;
 
 		vdd-cx-supply = <&pm8953_s2_level>;
