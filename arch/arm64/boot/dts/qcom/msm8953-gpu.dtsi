@@ -1,4 +1,4 @@
-/* Copyright (c) 2018,2020, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2018, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -116,7 +116,7 @@
 		/* GDSC oxili regulators */
 		vddcx-supply = <&gdsc_oxili_cx>;
 		vdd-supply = <&gdsc_oxili_gx>;
-		
+
 		/* CPU latency parameter */
 		qcom,pm-qos-active-latency = <100>;
 		qcom,pm-qos-wakeup-latency = <100>;
@@ -152,6 +152,7 @@
 				qcom,mempool-page-size = <131072>;
 			};
 		};
+
 		qcom,gpu-coresights {
 			#address-cells = <1>;
 			#size-cells = <0>;
@@ -272,7 +273,7 @@
 				qcom,bus-min = <1>;
 				qcom,bus-max = <4>;
 			};
-			
+
 			qcom,gpu-pwrlevel@11 {
 				reg = <11>;
 				qcom,gpu-freq = <80000000>;
@@ -280,7 +281,7 @@
 				qcom,bus-min = <1>;
 				qcom,bus-max = <2>;
 			};
-			
+
 			/* XO */
 			qcom,gpu-pwrlevel@12 {
 				reg = <12>;
